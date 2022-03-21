@@ -5,3 +5,6 @@ PyScript is a GUI toolkit that is designed to be extremely easy, but also packed
 
 
 <i>PyScript is currently in development stage.</i>
+
+## Long Description
+[Description here.](https://pyscriptgui.wordpress.com)
