@@ -78,3 +78,21 @@ class Label:
 
     def place(self, x: int, y: int):
         self.lbl.place(x=x, y=y)
+
+    def config(self, text: str = None, font: tuple = None, bg: str = None, fg: str = None):
+        if text is not None:
+            self.text_ = text
+            self.lbl.config(text=self.text_)
+
+        if font is not None:
+            self.font_ = font
+            self.lbl.config(font=self.font_)
+
+        if bg is not None:
+            self.bg_ = bg
+            self.lbl.config(bg=self.bg_)
+
+        if fg is not None:
+            self.fg_ = fg
+            self.lbl.config(fg=self.fg_)
+            
