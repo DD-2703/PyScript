@@ -27,7 +27,7 @@ class Window:
     def _geo_tuple_to_str(self):
         result = ""
         if len(self.geometry_) >= 3:
-            from Exceptions.UnexpectedValueError import UnexpectedValueError
+            from PyScript.Exceptions.UnexpectedValueError import UnexpectedValueError
             raise UnexpectedValueError("More than 2 Values Found in Geometry Parameter.")
         else:
             result += str(self.geometry_[0])
@@ -73,7 +73,7 @@ class Label:
     def grid(self, row: int, column: int, columnspan: int = 1, rowspan: int = 1, sticky: str = "NSEW"):
         self.lbl.grid(row=row, column=column, columnspan=columnspan, rowspan=rowspan, sticky=sticky)
 
-    def pack():
+    def pack(self):
         self.lbl.pack()
 
     def place(self, x: int, y: int):
