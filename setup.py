@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'PyScript',
   packages = ['PyScript'],
-  version = '0.1',
+  version = '0.1.1',
   license='MIT',
   description = 'PyScript is a GUI toolkit that is designed to be extremely easy, but also packed with dozens of features. It is built on top of Tkinter in Python.',
   author = 'InfoDaneMent (Darsh Dane)',
