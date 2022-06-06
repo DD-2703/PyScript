@@ -1,7 +1,7 @@
 # PyScript
 
 ## NOTE
-*This is the development branch, so it may contain bugs. If you are interested in using the stable release, check out the `main` branch.*
+*This is the stable branch. If you are interested in using the development branch, check out the `dev` branch.*
 
 ## Short Description
 PyScript is a GUI toolkit that is designed to be extremely easy, but also packed with dozens of features. It is built on top of Tkinter in Python.
